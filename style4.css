@@ -1,0 +1,141 @@
+h1{ color: #B7950B; 
+    font-family: 'Righteous';
+    text-align: center;
+    background-color: #00FD7F;
+} 
+
+h2{color: #47C274;
+   text-align: left;
+   font-family: 'Righteous';
+   font-weight: bold;
+}
+h3{color:#47C274; 
+   text-align: left;
+   font-family: 'Righteous';
+   font-weight: bold;
+}
+
+h4{text-align:center;
+   background-color: #314FF4;
+   color:white;
+   display: inline-block;
+   font-size: 20px;
+   border-radius: 5px;
+   font-family: 'Righteous';
+}
+
+a{border-radius: 5px;
+  background-color: #314FF4;
+  color: #F0F3F4;
+  font-family: 'Righteous';
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{color:black;
+        font-size: 25px;
+}
+
+p{ color:#2C3E50 ; 
+   font-size: 20px;
+   letter-spacing: 1px;
+   line-height: 20px;
+   font-family: 'Red Hat Text', sans-serif;
+   font-weight: bold;
+}
+
+.vemos{color: #2C3E50;}
+#cambia{color: #2C3E50;}
+
+ol li{color: #B7950B;
+      font-weight: bold;
+} 
+
+ul li{color:#B7950B; 
+      font-weight: bold;
+}
+
+table{color: black;
+      font-weight: bold;
+}
+
+.campo{color: brown;
+       font-weight: bold;
+       border-width: 10px;
+       display: block;
+       float: left;
+       width: 1180px;
+       margin: 15px;    
+}
+
+fieldset{border-width: 10px;
+         background: linear-gradient(to top, #00FD7F, #00FDD7)
+         
+}
+
+
+body{ background-image: url(imagenes/corre.png);
+}
+
+legend{color: black;
+       font-weight: bold;}
+
+img{height: 300px;
+    width: 600px;
+    display:block;
+    margin:auto;
+}
+#caja{margin: 10px 5px 10px 5px;
+      padding: 20px 10px 20px 10px;
+      height: 100px;
+      overflow: auto;
+}
+
+#margen{margin: 80px 15px 30px 15px;
+        padding: 40px 15px 40px 15px;
+        background-color: #00FD7F;
+        display: inline;
+        float: left;
+        border: 6px solid grey;
+}
+
+#alto{margin: 80px 20px 20px 20px;
+      padding: 40px 15px 40px 15px;
+      float: left;
+      border: 6px solid grey;
+      background-color: #00FD7F;
+      font-size: 20px;
+      display: inline;
+      width: 450px;
+}
+
+.beneficios{float: left;
+            border: 6px solid grey;
+            margin: 1118px 20px 0px 20px;
+            padding: 40px 5px 40px 5px;
+            width: 440px;
+            background-color: #00FD7F;
+            font-size: 20px;
+            display: inline;
+            width: 468px;
+}
+video {margin:auto;
+        display:block;
+}
+
+button:hover{ 
+              background-color: #000000;
+              color: white;
+              font-size: 20px;
+
+}
+
+#btn{width: 200px;
+     background-color: #314FF4;
+     border: none;
+     font-family: 'Righteous';
+     font-size: 20px;
+     border-radius: 5px;
+     transition: width 10s;
+}

@@ -1,0 +1,69 @@
+.navbar{background-color: #00FD7F;
+        overflow: hidden;
+}
+
+.navbar a{float:left;
+        font-size: 16px;
+        color: #999999;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+.subnav{float: left;
+        overflow: hidden;
+}
+
+.subnav .subnavbtn{font-size: 16px;
+                   border: none;
+                   color: #999999;
+                   padding: 14px 16px;
+                   background-color: inherit;
+                   font-family: inherit;
+                   margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {background-color: blue;}
+
+.subnav-content {display: none;
+                 position: absolute;
+                 left: 0;
+                 background-color:#999999 ;
+                 width: 15%;
+                 z-index: 1;
+}
+
+.subnav-content-vertical {display: none;
+                          position: absolute;
+                          background-color: grey;
+}
+
+.subnav-content a, .subnav-content-vertical a{float: left;
+                                              color: white;
+                                              text-decoration: none;
+}
+
+.subnav-content a:hover, .subnav-content-vertical a:hover {background-color: #eee;
+                                                           color: black;
+}
+
+.subnav:hover .subnav-content, .subnav:hover .subnav-content-vertical {display: block;
+                                                                      
+}
+
+ul {list-style: none;}
+
+.lista{list-style: disc;}
+
+h2{background-color: #00FDFD;
+   color: #999999;
+   width: 380px;
+}
+
+.sincolor{background-color: white;}
+
+.color{background-color:#00FDFD;}
+
+h1{color: #999999;
+   margin: 30px 0px 0px 400px;
+}
